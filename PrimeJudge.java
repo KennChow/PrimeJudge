@@ -6,9 +6,9 @@ public class PrimeJudgeTra {
 
 	public static void main(String[] args) 
 	{	
-	//ÅĞ¶ÏÒ»¸öÊıÊÇ·ñÊÇËØÊı
+	//åˆ¤æ–­ä¸€ä¸ªæ•°æ˜¯å¦æ˜¯ç´ æ•°
 		Scanner in = new Scanner(System.in);
-		//Ò»¸öÖ»ÄÜ±»1ºÍ×Ô¼ºÕû³ı£¬ÄÇÃ´ËüÊÇËØÊı
+		//ä¸€ä¸ªåªèƒ½è¢«1å’Œè‡ªå·±æ•´é™¤ï¼Œé‚£ä¹ˆå®ƒæ˜¯ç´ æ•°
 		int num = in.nextInt();
 		boolean isPrime = true;
 		if(num>1)
@@ -28,11 +28,11 @@ public class PrimeJudgeTra {
 		}
 		if(isPrime)
 		{
-			System.out.println(num+"ÊÇËØÊı");
+			System.out.println(num+"æ˜¯ç´ æ•°");
 		}
 		else
 		{
-			System.out.println(num+"²»ÊÇËØÊı");
+			System.out.println(num+"ä¸æ˜¯ç´ æ•°");
 		}
 		
 		//
